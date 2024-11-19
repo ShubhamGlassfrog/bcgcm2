@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-3 animate-scale">
               <Image
-                src="/bcg.png"
+                src="/bcgcm.jpeg"
                 alt="BCGCM Logo"
                 width={200}
                 height={200}

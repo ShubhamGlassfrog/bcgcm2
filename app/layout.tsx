@@ -7,7 +7,7 @@ import Footer from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'StructuredFin | Modern Structured Finance Solutions',
+  title: 'BCGCM India | Modern Structured Finance Solutions',
   description: 'Expert insights and solutions in structured finance, securitization, and complex financial instruments.',
 };
 

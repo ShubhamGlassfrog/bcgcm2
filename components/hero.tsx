@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="gradient-bg text-[#012061] relative isolate overflow-hidden">
-      <div className="mx-auto max-w-7xl px-6  sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6  lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mb-4">
@@ -48,29 +48,7 @@ export default function Hero() {
       </div>
       
     <div className="absolute inset-0 -z-10 overflow-hidden bg-white">
-  <svg
-    className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-100 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
-    aria-hidden="true"
-  >
-    <defs>
-      <pattern
-        id="gray-pattern"
-        width={200}
-        height={200}
-        x="50%"
-        y={-1}
-        patternUnits="userSpaceOnUse"
-      >
-        <path d="M100 200V.5M.5 .5H200" fill="none" stroke="gray" />
-      </pattern>
-    </defs>
-    <rect
-      width="100%"
-      height="100%"
-      strokeWidth={0}
-      fill="url(#gray-pattern)"
-    />
-  </svg>
+
 </div>
 
     </div>
